@@ -19,11 +19,13 @@ docker run -d --name traefik -p 8080:8080 -p 80:80 -v /var/run/docker.sock:/var/
 ```
 
 PRZYKŁADOWE ZAPYTANIE:
-```{
+```
+{
   "model": "BMW E46 PO SWAPIE NA 2.0",
   "year": 2002,
   "details": "brak"
-  }```
+ }
+```
 
 
 DOSTĘPNE ENDPOINTY:
