@@ -19,10 +19,14 @@ docker run -d --name traefik -p 8080:8080 -p 80:80 -v /var/run/docker.sock:/var/
 ```
 
 PRZYKŁADOWE ZAPYTANIE:
-* http://test.com/cars
-* http://test.com/cars?year=2020
-* http://test.com/addCar (w postmanie body -> raw -> JSON: ```{
+* ```{
   "model": "BMW E46 PO SWAPIE NA 2.0",
   "year": 2002,
   "details": "brak"
   }```)
+
+
+DOSTĘPNE ENDPOINTY:
+* http://test.com/cars
+* http://test.com/cars?year=2020
+* http://test.com/addCar  
